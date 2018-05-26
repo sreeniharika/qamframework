@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="frameworkdata.AddItemsToCart">
+      <class name="frameworkdata.shopNavigate">
         <methods>
+          <include name="Verifynavigation"/>
           <include name="closeBrowser"/>
           <include name="driverinitialize"/>
-          <include name="cartItems"/>
         </methods>
-      </class> <!-- frameworkdata.AddItemsToCart -->
+      </class> <!-- frameworkdata.shopNavigate -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

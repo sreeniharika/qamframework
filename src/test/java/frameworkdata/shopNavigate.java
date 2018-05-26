@@ -46,7 +46,8 @@ public void driverinitialize() throws IOException{
 @Test
 public void Verifynavigation() throws IOException, InterruptedException {
 	
-	driver.navigate().to(prop.getProperty("sauceurl"));
+	testbase.Config config = new testbase.Config(prop);
+    driver.get(config.getUrl());
 	test.log(LogStatus.PASS, "opened url");
 	
 	u.click("wishlist_link_xpath");

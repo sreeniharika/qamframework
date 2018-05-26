@@ -51,7 +51,7 @@ public class AddItemsToCart extends testbase.base {
 	public void cartItems() throws IOException, InterruptedException{
 		
 		testbase.Config config = new testbase.Config(prop);
-	   // driver.get(config.getUrl());
+	     driver.get(config.getUrl());
 		
 		test.log(LogStatus.PASS, "opened url");
 		log.debug("opened URL");
@@ -87,7 +87,7 @@ public class AddItemsToCart extends testbase.base {
 		
 	@AfterTest
 	public void closeBrowser(){
-		//driver.close();
+		driver.close();
 		driver = null; 
 		rep.endTest(test);
 		rep.flush();

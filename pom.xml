@@ -11,7 +11,7 @@
    <profiles>
   <profile>
   
-  <id>Zoho</id>
+  <id>shoppingcart</id>
    
  <build>
   <resources>

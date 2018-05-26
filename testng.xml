@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <listeners>
+
+<listener class-name="listners.listners"/>
+<listener class-name="report.ExtentReporterNG"/>
+
+</listeners>
+
+
+  
+<test name="VerifyEmptyCart" allow-return-values="true">
+    <classes>
+      <class name="frameworkdata.VerifyEmptyCart"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+   <test name="AddItemsToCart">
+     <classes>
+      <class name="frameworkdata.AddItemsToCart"/>
+      </classes>
+      </test>
+      
+        <test name="shopNavigate">
+     <classes>
+      <class name="frameworkdata.shopNavigate"/>
+      </classes>
+      </test>
+      
+      
+</suite> <!-- Suite -->
+

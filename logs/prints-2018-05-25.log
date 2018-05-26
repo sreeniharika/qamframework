@@ -1,0 +1,8 @@
+16:54:01.761 [main] INFO  frameworkdata.spicejet1 - Browser initialized
+16:54:06.697 [main] INFO  frameworkdata.spicejet1 - url is opened
+16:54:30.232 [main] INFO  frameworkdata.spicejet2 - Browser initialized
+16:54:36.389 [main] INFO  frameworkdata.spicejet2 - opened url
+16:54:36.674 [main] INFO  frameworkdata.spicejet2 - Clicked on family checkbox
+16:54:57.446 [main] INFO  frameworkdata.spicejet3 - Browser initialized
+16:55:01.401 [main] INFO  frameworkdata.spicejet3 - opened url
+17:00:22.042 [main] DEBUG frameworkdata.AddItemsToCart - starting test
